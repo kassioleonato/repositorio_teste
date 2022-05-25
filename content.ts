@@ -64,15 +64,15 @@ type Content = {
 
 const content: Content = {
   head: {
-    metaDescription: "Site da Dra. Andrea Cronemberger",
-    title: "Dra. Andrea Cronemberger",
+    metaDescription: "Site da Dra. Andréa Cronemberger",
+    title: "Dra. Andréa Cronemberger",
   },
   social: {
     whatsAppNumber: "558695183172",
     instagramLink: "https://www.instagram.com/andrearufino_/",
   },
   hero: {
-    title: "Dra. Andrea Cronemberger",
+    title: "Dra. Andréa Cronemberger",
     titleHighlighted: "Ginecologista e Sexóloga.",
   },
   welcomeMessage: {
@@ -102,17 +102,18 @@ const content: Content = {
   presentation: {
     title: "Quem sou eu",
     content:
-      `      Dra. Andréa Rufino é médica (CRM 2006/PI) e ginecologista (RQE 434) com área de atuação em sexologia (RQE 1484).
+      `Dra. Andréa Rufino é médica (CRM 2006/PI) e ginecologista (RQE 434) com área de atuação em sexologia (RQE 1484).
 
-      A expertise em medicina sexual foi construída em longos anos de residência médica, pós-graduação em sexologia clínica e formação em psicanálise.
+A expertise em medicina sexual foi construída em longos anos de residência médica, pós-graduação em sexologia clínica e formação em psicanálise.
 
-      A atuação como professora universitária e pesquisadora de temas sexuais promoveu expertise adicional para a psicoeducação sexual, considerada o pilar da terapia sexual baseada em evidências científicas. 
+A atuação como professora universitária e pesquisadora de temas sexuais promoveu expertise adicional para a psicoeducação sexual, considerada o pilar da terapia sexual baseada em evidências científicas.
 `,
   },
   choices: {
     title: "Espaço para você",
     content:
-      "A trajetória profissional que une assistência, ensino e pesquisa a preparou para tratar as queixas sexuais de forma dinâmica e integradora de causas orgânicas, relacionais e psicossociais. Realizo atendimento junto à Rua Angélica 1732, Fátima, Teresina-Pi, Casa das Mulheres. O agendamento pode ser feito pelo telefone celular, por ligação ou whatsapp.",
+      `A trajetória profissional que une assistência, ensino e pesquisa a preparou para tratar as queixas sexuais de forma dinâmica e integradora de causas orgânicas, relacionais e psicossociais. 
+Atendimento junto à Rua Angélica, 1732, Fátima, Teresina-Pi, Casa das Mulheres. O agendamento pode ser feito pelo telefone celular, por ligação ou whatsapp.`,
     images: [
       "/swipper/image1.jpg",
       "/swipper/image2.jpg",
@@ -155,13 +156,13 @@ const content: Content = {
   testimonials: [
     {
       content:
-        "Quando penso em atendimento ginecológico, pra mim alguns aspectos são de extrema importância: empatia e uma escuta sem pré conceitos. Ter uma médica com essas duas qualidades faz a diferença nessa relação que de certa forma é tão íntima. E a Dra Andrea trabalha dessa forma. Isso fortalece o vínculo médica-paciente, influenciando até no resultado de qualquer tratamento. Deixo aqui todo meu respeito e admiração por ela e pelo seu trabalho. Me orgulho muito de tê-la como médica.",
+        "Quando penso em atendimento ginecológico, pra mim alguns aspectos são de extrema importância: empatia e uma escuta sem preconceitos. Ter uma médica com essas duas qualidades faz a diferença nessa relação que de certa forma é tão íntima. A Dra. Andréa trabalha dessa forma. Isso fortalece o vínculo médica-paciente, influenciando até no resultado de qualquer tratamento. Deixo aqui todo meu respeito e admiração por ela e pelo seu trabalho. Me orgulho muito de tê-la como médica.",
       clientName: "ADRIANA PEDRINI",
       clientDescription: "",
     },
     {
       content:
-        "Desde que comecei a ser atendida pela Dra. Andréa Rufino, tenho uma médica humana e profissional de excelência, que busca sempre um atendimento personalizado para pacientes, seja nas consultas ginecológicas, seja nos atendimentos terapêuticos. Me senti confortável inclusive para levar a minha filha, ainda adolescente, para ser atendida e acompanhada por ela e tive a certeza de que seu trabalho é diferenciado, pois ela tem um olhar especial para esse público. Consegue acesso fácil, porque sabe ouvir sem julgamento e mantem a privacidade que era muito importante para eles. Além disso, encontro na Casa das Mulheres um espeço de acolhimento e cuidado. Por todas essas razões, indico a Dra. Andréa Rufino para todo mundo!",
+        "Desde que comecei a ser atendida pela Dra. Andréa Rufino, tenho uma médica humana e profissional de excelência, que busca sempre um atendimento personalizado para pacientes, seja nas consultas ginecológicas, seja nos atendimentos terapêuticos. Me senti confortável inclusive para levar a minha filha, ainda adolescente, para ser atendida e acompanhada por ela e tive a certeza de que seu trabalho é diferenciado, pois ela tem um olhar especial para esse público. Consegue acesso fácil, porque sabe ouvir sem julgamento e mantém a privacidade que era muito importante para eles. Além disso, encontro na Casa das Mulheres um espeço de acolhimento e cuidado. Por todas essas razões, indico a Dra. Andréa Rufino para todo mundo!",
       clientName: "Alexandra Cronemberger",
       clientDescription: "",
     },
@@ -169,7 +170,7 @@ const content: Content = {
   cta: {
     title: "Como posso te ajudar?",
     content:
-      "Os atendimentos de consulta são individualizados onde conheceremos a respeito das suas queixas para melhor atender suas necessidades. Disponibilizamos um retorno que deverá ser realizado com até 25 dias da consulta inicial. O agendamento pode ser feito pelo telefone celular, por ligação ou whatsapp. Atendimento de segunda a sexta, 8:30 às 12:30. Segunda e quinta, de 15:00 às 19:00. Terça e quarta de 17:00 às 19:00.",
+      "Os atendimentos de consulta são individualizados onde conheceremos a respeito das suas queixas para melhor atender suas necessidades. Disponibilizamos um retorno que deverá ser realizado com até 25 dias da consulta inicial. O agendamento pode ser feito pelo telefone celular, por ligação ou whatsapp. Atendimento de segunda a sexta, 8:30 às 12:30. Segunda e quinta, de 15:00 às 19:00. Terça e quarta, de 17:00 às 19:00.",
   },
   footer: {
     address:
