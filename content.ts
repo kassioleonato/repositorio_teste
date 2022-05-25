@@ -29,11 +29,11 @@ type Content = {
     title: string;
     content: string;
   };
-  choices:{
+  choices: {
     title: string;
     content: string;
     images: string[];
-  }
+  };
   faq: {
     title: string;
     items: Array<{
@@ -64,113 +64,124 @@ type Content = {
 
 const content: Content = {
   head: {
-    metaDescription: "Site template MCP",
-    title: "Site Template MCP",
+    metaDescription: "Site da Dra. Andrea Cronemberger",
+    title: "Dra. Andrea Cronemberger",
   },
   social: {
-    whatsAppNumber: "5511997970066",
-    instagramLink: "https://www.instagram.com/felipe.maffezzolli/",
+    whatsAppNumber: "558695183172",
+    instagramLink: "https://www.instagram.com/andrearufino_/",
   },
   hero: {
-    title: "Dra. MCP",
-    titleHighlighted: "Especialização do MCP!",
+    title: "Dra. Andrea Cronemberger",
+    titleHighlighted: "Ginecologista e Sexóloga.",
   },
   welcomeMessage: {
     title: "Sejam Bem-Vindas(os)!",
-    content: "Sed vitae lectus venenatis, pulvinar erat a, tristique diam. Vivamus id massa quam. Morbi porta aliquet sem, sed porttitor neque tempor quis. Etiam tristique viverra dolor, sed malesuada justo pharetra vitae.Morbi porta aliquet sem, sed porttitor neque tempor quis. Etiam tristique viverra dolor, sed malesuada justo pharetra vitae.",
+    content:
+      "SEXUALIDADE, VIDA E SAÚDE: REVOLUCIONE A SUA! Medicina sexual.",
   },
   features: {
     items: [
       {
-        title: "",
+        title: "Medicina sexual",
         imagesrc: "./atuacao/image1.jpg",
-        content: ``,
+        content: `Medicina sexual: Diagnóstico de queixas sexuais que envolvem problemas físicos, emocionais, de relacionamento e sociais. `,
       },
       {
-        title: "",
+        title: "Terapia especializada",
         imagesrc: "./atuacao/image2.jpg",
-        content: ``,
+        content: `Disponibiliza terapia especializada com equipe multiprofissional para indivíduos e casais com o objetivo de restabelecer sua função sexual e saúde integral.`,
       },
       {
-        title: "",
+        title: "Programa de educação sexual",
         imagesrc: "./atuacao/image3.jpg",
-        content: ``,
-      },
-      {
-        title: "",
-        imagesrc: "./atuacao/image4.jpg",
-        content: ``,
-      },
-      {
-        title: "",
-        imagesrc: "./atuacao/image5.jpg",
-        content: ``,
-      },
-      {
-        title: "",
-        imagesrc: "./atuacao/image6.jpg",
-        content: ``,
+        content: `Também oferta programa de educação sexual em jornada que atende as necessidades individuais.`,
       },
     ],
   },
   presentation: {
     title: "Quem sou eu",
-    content: "Vivamus pellentesque velit nec quam cursus, eu ornare elit rhoncus. Pellentesque hendrerit, enim ut mattis sagittis, libero leo malesuada lectus, sed vulputate ex tellus ut sapien. Nam luctus turpis eget enim porta cursus. Donec mollis, libero quis laoreet auctor, tortor justo interdum urna, vitae blandit neque risus vel ligula. Integer scelerisque tempor sapien, ut lobortis urna mollis ut. Quisque vestibulum, dui in placerat dignissim, tellus orci laoreet ipsum, sit amet vestibulum nisi tortor id felis. Mauris sodales massa vel rutrum hendrerit. Maecenas vel mollis dolor. In a vestibulum lorem, ac cursus nibh. Sed facilisis maximus nulla cursus blandit. Duis metus sapien, molestie sit amet turpis quis, vestibulum tempor felis. Etiam quis tristique ipsum. Ut pretium vehicula libero eget sollicitudin. Curabitur ultrices tellus nulla, id convallis nibh pretium sed. Sed eget eleifend mi, in tempor velit. Donec efficitur orci tellus, vel mollis nulla tempor eu. In vehicula sollicitudin tortor sit amet feugiat. Phasellus tincidunt ligula at nisl faucibus tempus.",
+    content:
+      `      Dra. Andréa Rufino é médica (CRM 2006/PI) e ginecologista (RQE 434) com área de atuação em sexologia (RQE 1484).
+
+      A expertise em medicina sexual foi construída em longos anos de residência médica, pós-graduação em sexologia clínica e formação em psicanálise.
+
+      A atuação como professora universitária e pesquisadora de temas sexuais promoveu expertise adicional para a psicoeducação sexual, considerada o pilar da terapia sexual baseada em evidências científicas. 
+`,
   },
   choices: {
     title: "Espaço para você",
-    content: "Vivamus pellentesque velit nec quam cursus, eu ornare elit rhoncus. Pellentesque hendrerit, enim ut mattis sagittis, libero leo malesuada lectus, sed vulputate ex tellus ut sapien. Nam luctus turpis eget enim porta cursus. Donec mollis, libero quis laoreet auctor, tortor justo interdum urna, vitae blandit neque risus vel ligula. Integer scelerisque tempor sapien, ut lobortis urna mollis ut. Quisque vestibulum, dui in placerat dignissim, tellus orci laoreet ipsum, sit amet vestibulum nisi tortor id felis. Mauris sodales massa vel rutrum hendrerit. Maecenas vel mollis dolor. In a vestibulum lorem, ac cursus nibh. Sed facilisis maximus nulla cursus blandit. Duis metus sapien, molestie sit amet turpis quis, vestibulum tempor felis. Etiam quis tristique ipsum. Ut pretium vehicula libero eget sollicitudin. Curabitur ultrices tellus nulla, id convallis nibh pretium sed. Sed eget eleifend mi, in tempor velit. Donec efficitur orci tellus, vel mollis nulla tempor eu. In vehicula sollicitudin tortor sit amet feugiat. Phasellus tincidunt ligula at nisl faucibus tempus.",
+    content:
+      "A trajetória profissional que une assistência, ensino e pesquisa a preparou para tratar as queixas sexuais de forma dinâmica e integradora de causas orgânicas, relacionais e psicossociais. Realizo atendimento junto à Rua Angélica 1732, Fátima, Teresina-Pi, Casa das Mulheres. O agendamento pode ser feito pelo telefone celular, por ligação ou whatsapp.",
     images: [
-    "/swipper/Consultorio-Yumi-001.jpg",
-    "/swipper/Consultorio-Yumi-002.jpg",
-    "/swipper/Consultorio-Yumi-003.jpg",
-    "/swipper/Consultorio-Yumi-004.jpg",
-    "/swipper/Consultorio-Yumi-005.jpg",
-    "/swipper/Consultorio-Yumi-006.jpg",
-  ],
+      "/swipper/image1.jpg",
+      "/swipper/image2.jpg",
+      "/swipper/image3.jpg",
+      "/swipper/image4.jpg",
+      "/swipper/image5.jpg",
+      "/swipper/image6.jpg",
+    ],
   },
   faq: {
-    title: 'Perguntas Frequentes',
+    title: "Perguntas Frequentes",
     items: [
       {
-        question: 'Como funcionam os agendamentos?',
-        answer: 'Os agendamentos são realizados pelo telefone celular, podendo ser por ligação telefônica com WhatsApp. 51 995962973 Link do WhatsApp: https://wa.me/5551995962973 No momento do agendamento são solicitados os dados cadastrais do paciente, se for a primeira consulta. Tais como: Nome completo, Data de nascimento, CPF, E-mail, Endereço completo (com CEP e bairro) e Celular.',
+        question: "Estou sem desejo sexual: o que fazer?",
+        answer:
+          "Começamos investigando as possíveis causas. Precisamos descartar alterações hormonais, como doenças da tireoide, prolactina elevada, menopausa e uso de hormônios. Importante observar se há conflitos de relacionamento e questões emocionais que afetam a autoestima. Lembrar que o stress cotidiano, maus hábitos de vida, cansaço e a monotonia nos relacionamentos podem impactar de forma negativa no desejo sexual. Desconhecimento e crenças limitantes sobre sexualidade impõe dificuldades para o desejo sexual se expressar livremente. Uma equipe multiprofissional preparada para te escutar, diagnosticar, orientar e tratar as possíveis causas é fundamental para ajudar a recuperar o desejo sexual.",
       },
       {
-        question: 'O que é a Medicina de Família e Comunidade?',
-        answer: 'Cuidado das pessoas de maneira integral (todas as queixas do paciente), respeitando as especificidades de cada indivíduo, família e organizações comunitárias. Também pode acompanhar todos os membros da família, desde o bebê até o mais idoso, ao longo do tempo. É premissa da medicina de família que o paciente tenha acesso ao médico tanto nas consultas de rotina como nas de emergência com premissa o acesso essa especialidade é capaz de solucionar a maioria dos problemas de saúde sem necessidade de encaminhamento para outros especialistas. O que é a Homeopatia? cuidado das pessoas de forma individualizada, por meio de uma escuta ativa. Essa especialidade não alivia somente os sintomas, visa reequilibrar a energia do organismo do paciente e trazer de volta para sua melhor versão de saúde e bem-estar. Entende-se que a saúde do indivíduo vai muito além da ausência de doenças, tem relação com como o indivíduo vive e se relaciona com o mundo. Além disso, a homeopatia pode ser utilizada como tratamento para quaisquer tipos de diagnóstico e pacientes, sem contraindicação.',
+        question: "Sinto muita dor na relação sexual!",
+        answer:
+          "Primeiro, NÃO é normal sentir dor na prática sexual! Então, precisamos valorizar sua queixa e pesquisar as causas. Doenças como endometriose, infecção pélvica e vaginites podem causar dor durante as relações sexuais. Conflitos sexuais e no relacionamento, experiências de violência, desconhecimento sobre sexualidade e educação muito repressora também podem resultar em dor e medo que dificultam a prática sexual. Uma avaliação com equipe multiprofissional te ajuda a identificar as causas e tratar adequadamente para que a prática sexual seja confortável e prazerosa. Afinal, sexo deve ser sinônimo de prazer!",
       },
       {
-        question: 'Como é a minha consulta?',
-        answer: 'A consulta é um momento de acolhimento, escuta e respeito, ao paciente e sua família. O atendimento é realizado com calma e cuidando por inteiro de todos os pacientes. Durante a consulta serão abordadas questões de estilo de vida, hábitos, comportamentos. As condutas são construídas junto com o paciente, de maneira compartilhada. A médica trará as evidências científicas necessárias para que o paciente tenha autonomia para decidir, de forma ativa e esclarecida, sobre o melhor cuidado que é possível para ele, no seu contexto, cuidar da sua própria saúde. Após a consulta, o paciente receberá um relatório de orientações para lembrar das combinações feitas entre ele e a médica. A necessidade de realização de exames, prescrição de medicação tanto alopática, quanto homeopática e fitoterápica, e o período até o próximo encontro também será definida de maneira compartilhada entre médica e paciente durante a consulta. Cada consulta tem duração média de 60 minutos e os resultados são incríveis, após poucos encontros. A consulta presencial é realizada no município de Porto Alegre/RS e a consulta on-line é realizada por vídeo chamada. A consulta de retorno não está inclusa no valor da primeira consulta/ consulta anterior. As consultas são avulsas, ainda não trabalho com planos de acompanhamento. O pagamento pode ser através de dinheiro ou PIX.'
-      }
-    ]
+        question: "Não consigo ficar lubrificada na prática sexual!",
+        answer:
+          "A lubrificação é resultado de uma boa excitação que inclui estímulos sexuais adequados. O estímulo sexual deve ter duração, intensidade e frequência suficientes para congestão genital e prazer garantido! A falta de desejo sexual, falta de estímulo adequado, penetração vaginal sem estimulação adequada, menopausa, pós parto e medicamentos podem causar lubrificação diminuída. Uma boa consulta ginecológica com orientações adequadas te ajudam a resolver o problema.",
+      },
+      {
+        question: "Não consigo sentir prazer e fingo orgasmo!",
+        answer:
+          "O prazer sexual feminino inclui o conhecimento sobre o corpo, zonas erógenas e, principalmente, o clitóris. Clima envolvente com estímulos sexuais que despertam os 5 sentidos são o caminho para o prazer. Fingir o orgasmo é enganar a si mesma. Uma jornada educativa de autoconhecimento te ajudará a descobrir o que te dá prazer.",
+      },
+      {
+        question: "Tenho um relacionamento longo e o desejo sexual acabou!",
+        answer:
+          "Manter o desejo sexual em relacionamentos longos é um desafio mesmo. O cotidiano que impõe uma monotonia e eventuais conflitos afastam o casal e o desejo sexual também. Conhecer o que te dá prazer, repensar e mudar comportamentos são estratégias que a terapia de casal pode ajudar.",
+      },
+    ],
   },
   testimonials: [
     {
-      content: 'Sem palavras para o atendimento humanizado da Dra Daniela. Uma das melhores profissionais que já consultei.',
-      clientName: 'Joana Fonseca',
-      clientDescription: 'Mãe da Clara',
+      content:
+        "Quando penso em atendimento ginecológico, pra mim alguns aspectos são de extrema importância: empatia e uma escuta sem pré conceitos. Ter uma médica com essas duas qualidades faz a diferença nessa relação que de certa forma é tão íntima. E a Dra Andrea trabalha dessa forma. Isso fortalece o vínculo médica-paciente, influenciando até no resultado de qualquer tratamento. Deixo aqui todo meu respeito e admiração por ela e pelo seu trabalho. Me orgulho muito de tê-la como médica.",
+      clientName: "ADRIANA PEDRINI",
+      clientDescription: "",
     },
     {
-      content: 'Atendimento maravilhoso. Eu e meu filho fomos muitos bem atendidos.',
-      clientName: 'Márcio Faria',
-      clientDescription: 'Pai do Victor',
-    }
+      content:
+        "Desde que comecei a ser atendida pela Dra. Andréa Rufino, tenho uma médica humana e profissional de excelência, que busca sempre um atendimento personalizado para pacientes, seja nas consultas ginecológicas, seja nos atendimentos terapêuticos. Me senti confortável inclusive para levar a minha filha, ainda adolescente, para ser atendida e acompanhada por ela e tive a certeza de que seu trabalho é diferenciado, pois ela tem um olhar especial para esse público. Consegue acesso fácil, porque sabe ouvir sem julgamento e mantem a privacidade que era muito importante para eles. Além disso, encontro na Casa das Mulheres um espeço de acolhimento e cuidado. Por todas essas razões, indico a Dra. Andréa Rufino para todo mundo!",
+      clientName: "Alexandra Cronemberger",
+      clientDescription: "",
+    },
   ],
   cta: {
-    title: 'Como posso te ajudar?',
-    content: 'Os agendamentos são realizados pelo telefone celular, podendo ser por ligação telefônica com whatsapp no número +55 11 997970066',
+    title: "Como posso te ajudar?",
+    content:
+      "Os atendimentos de consulta são individualizados onde conheceremos a respeito das suas queixas para melhor atender suas necessidades. Disponibilizamos um retorno que deverá ser realizado com até 25 dias da consulta inicial. O agendamento pode ser feito pelo telefone celular, por ligação ou whatsapp. Atendimento de segunda a sexta, 8:30 às 12:30. Segunda e quinta, de 15:00 às 19:00. Terça e quarta de 17:00 às 19:00.",
   },
   footer: {
-    address: 'Av. Brigadeiro Luis Antônio, 4893 - Jardim Paulista - São Paulo/SP.',
-    addressLink: 'https://www.google.com.br/maps/place/Av.+Brigadeiro+Lu%C3%ADs+Ant%C3%B4nio,+4893+-+Jardim+Paulista,+S%C3%A3o+Paulo+-+SP,+01401-002/@-23.5833203,-46.6702496,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce59e178b11e29:0xc8df9dc7bbe3e937!8m2!3d-23.5833252!4d-46.6680609'
+    address:
+      "Rua Angélica 1732, Fátima, Teresina-Pi, Casa das Mulheres",
+    addressLink:
+      "https://www.google.com/maps/place/Casa+das+Mulheres+PI-+Dra.+Andrea+Rufino/@-5.0652979,-42.7944397,15z/data=!4m2!3m1!1s0x0:0x8646eba9091d0d40?sa=X&ved=2ahUKEwi_rduD7fr3AhUFuZUCHfHlDpUQ_BJ6BAhREAU",
   },
   colors: {
     scheme: "yellow",
     primaryLight: "#FFFACD",
-    primary: "#FFD700",
-    primaryDark: "#CDA543",
+    primary: "#BD3361",
+    primaryDark: "#009090",
   },
 };
 

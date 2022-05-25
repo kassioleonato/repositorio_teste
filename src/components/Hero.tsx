@@ -35,7 +35,8 @@ export const Hero = () => {
               spacing="4"
             >
               <Button
-                colorScheme={content.colors.scheme}
+                bgColor={content.colors.primary}
+                color={'white'}
                 rounded="full"
                 onClick={cta}
               >
@@ -72,10 +73,10 @@ export const Hero = () => {
             w="full"
             h="full"
             objectFit="cover"
-            objectPosition="top center"
+            objectPosition="25% 55%"
             position="absolute"
           />
-          <Box position="absolute" w="full" h="full" bg="blackAlpha.600" />
+          <Box position="absolute" w="full" h="full" bg="blackAlpha.400" />
         </Box>
       </Flex>
     </Box>

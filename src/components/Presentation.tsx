@@ -64,7 +64,8 @@ export const Presentation = () => {
               <Button
                 as="a"
                 href="#"
-                colorScheme={content.colors.scheme}
+                bgColor={content.colors.primary}
+                color="white"
                 px="8"
                 rounded="full"
                 size="lg"
@@ -90,7 +91,7 @@ export const Presentation = () => {
       >
         <Box position="relative" w="full" h="full">
           <Img
-            src={useBreakpointValue({ base: "/hero1.jpg", md: "/pres.jpg" })}
+            src="/pres.jpg"
             alt="Main Image"
             w="full"
             h="full"
@@ -101,7 +102,7 @@ export const Presentation = () => {
             })}
             position="absolute"
           />
-          <Box position="absolute" w="full" h="full" bg="blackAlpha.600" />
+          <Box position="absolute" w="full" h="full" bg="blackAlpha.400" />
         </Box>
       </Flex>
     </Box>

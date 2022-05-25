@@ -25,7 +25,7 @@ export const Cta: React.FC<CtaProps> = ({ title, description, isShowCtaButton = 
     <Container py={{ base: '16', md: '24' }} maxW="3xl">
       <MotionStack spacing={{ base: '8', md: '10' }} whileInView={{ translateX: [-50, 0], opacity: [0, 1] }}>
         <Stack spacing={{ base: '6', md: '10' }} align="center">
-          <Heading size={useBreakpointValue({ base: 'lg', md: 'xl' })} color={textColor}>
+          <Heading size={useBreakpointValue({ base: 'lg', md: 'xl' })} color={content.colors.primary}>
             {title}
           </Heading>
           <Text color={textColor} maxW="3xl" textAlign="center" fontSize="md" whiteSpace="break-spaces">
@@ -35,7 +35,8 @@ export const Cta: React.FC<CtaProps> = ({ title, description, isShowCtaButton = 
         {isShowCtaButton && (
           <Stack spacing="3" direction={{ base: 'column', sm: 'row' }} justify="center" id={idagende}>
             <Button
-              colorScheme={content.colors.scheme}
+              bgColor={content.colors.primary}
+              color={'white'}
               rounded="full"
               size="lg"
               onClick={cta}

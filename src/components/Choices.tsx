@@ -1,4 +1,5 @@
 import {
+  AspectRatio,
   chakra,
   Circle,
   Flex,
@@ -104,6 +105,7 @@ export default function Choices() {
             {content.choices.images.map((image, index) => {
               return (
                 <SwiperSlide key={index}>
+                  <AspectRatio ratio={4/3}>
                   <Img
                     src={image}
                     alt="Main Image"
@@ -112,6 +114,7 @@ export default function Choices() {
                     objectFit="cover"
                     objectPosition="center center"
                   />
+                  </AspectRatio>
                 </SwiperSlide>
               );
             })}
@@ -138,7 +141,7 @@ export default function Choices() {
                   key={index}
                   cursor="pointer"
                   onClick={() => handleChangeSlide(index)}
-                  bgColor={isActive ? "primary.500" : "blackAlpha.900"}
+                  bgColor={isActive ? "white" : "blackAlpha.900"}
                   opacity={isActive ? 1 : 0.5}
                 />
               );

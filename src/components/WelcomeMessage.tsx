@@ -19,7 +19,7 @@ const MotionStack = motion<StackProps>(Stack);
 
 export default function WelcomeMessage() {
   return (
-    <MotionBox as="section" bg={content.colors.primary} id="intro">
+    <MotionBox as="section" bg={content.colors.primaryDark} id="intro">
       <Container py={{ base: "3rem", md: "3.5rem" }} maxW="3xl">
         <MotionStack
           spacing={{ base: "6", md: "8" }}
@@ -49,7 +49,8 @@ export default function WelcomeMessage() {
             justify="center"
           >
             <Button
-              colorScheme={content.colors.scheme}
+              bgColor={content.colors.primary}
+              color={'white'}
               rounded="full"
               size="lg"
               onClick={cta}

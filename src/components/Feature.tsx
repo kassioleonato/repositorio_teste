@@ -96,14 +96,14 @@ export const Feature = (props: FeatureProps) => {
                 position="absolute"
                 w="full"
                 h="full"
-                bgColor={"blackAlpha.200"}
+                bgColor={"blackAlpha.300"}
               />
             ) : (
               <Box
                 position="absolute"
                 w="full"
                 h="full"
-                bgColor={"blackAlpha.400"}
+                bgColor={"blackAlpha.700"}
               />
             )}
           </Box>

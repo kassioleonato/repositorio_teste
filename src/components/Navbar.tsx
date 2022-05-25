@@ -76,7 +76,8 @@ export const Navbar = () => {
             <Flex align="center">
               <HStack spacing="8" display={{ base: "none", md: "flex" }}>
                 <Button
-                  colorScheme={content.colors.scheme}
+                  bgColor={content.colors.primary}
+                  color="white"
                   rounded="full"
                   onClick={cta}
                 >
