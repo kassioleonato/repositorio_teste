@@ -112,8 +112,7 @@ A atuação como professora universitária e pesquisadora de temas sexuais promo
   choices: {
     title: "Espaço para você",
     content:
-      `A trajetória profissional que une assistência, ensino e pesquisa a preparou para tratar as queixas sexuais de forma dinâmica e integradora de causas orgânicas, relacionais e psicossociais. 
-Atendimento junto à Rua Angélica, 1732, Fátima, Teresina-Pi, Casa das Mulheres. O agendamento pode ser feito pelo telefone celular, por ligação ou whatsapp.`,
+      `A trajetória profissional que une assistência, ensino e pesquisa a preparou para tratar das queixas sexuais de forma dinâmica e integradora de causas orgânicas, relacionais e psicossociais.`,
     images: [
       "/swipper/image1.jpg",
       "/swipper/image2.jpg",
@@ -162,7 +161,7 @@ Atendimento junto à Rua Angélica, 1732, Fátima, Teresina-Pi, Casa das Mulhere
     },
     {
       content:
-        "Desde que comecei a ser atendida pela Dra. Andréa Rufino, tenho uma médica humana e profissional de excelência, que busca sempre um atendimento personalizado para pacientes, seja nas consultas ginecológicas, seja nos atendimentos terapêuticos. Me senti confortável inclusive para levar a minha filha, ainda adolescente, para ser atendida e acompanhada por ela e tive a certeza de que seu trabalho é diferenciado, pois ela tem um olhar especial para esse público. Consegue acesso fácil, porque sabe ouvir sem julgamento e mantém a privacidade que era muito importante para eles. Além disso, encontro na Casa das Mulheres um espeço de acolhimento e cuidado. Por todas essas razões, indico a Dra. Andréa Rufino para todo mundo!",
+        "Desde que comecei a ser atendida pela Dra. Andréa Rufino, tenho uma médica humana e profissional de excelência, que busca sempre um atendimento personalizado para pacientes, seja nas consultas ginecológicas, seja nos atendimentos terapêuticos. Me senti confortável inclusive para levar a minha filha, ainda adolescente, para ser atendida e acompanhada por ela e tive a certeza de que seu trabalho é diferenciado, pois ela tem um olhar especial para esse público. Consegue acesso fácil, porque sabe ouvir sem julgamento e mantém a privacidade que era muito importante para eles. Além disso, encontro na Casa das Mulheres um espaço de acolhimento e cuidado. Por todas essas razões, indico a Dra. Andréa Rufino para todo mundo!",
       clientName: "Alexandra Cronemberger",
       clientDescription: "",
     },
@@ -170,7 +169,7 @@ Atendimento junto à Rua Angélica, 1732, Fátima, Teresina-Pi, Casa das Mulhere
   cta: {
     title: "Como posso te ajudar?",
     content:
-      "Os atendimentos de consulta são individualizados onde conheceremos a respeito das suas queixas para melhor atender suas necessidades. Disponibilizamos um retorno que deverá ser realizado com até 25 dias da consulta inicial. O agendamento pode ser feito pelo telefone celular, por ligação ou whatsapp. Atendimento de segunda a sexta, 8:30 às 12:30. Segunda e quinta, de 15:00 às 19:00. Terça e quarta, de 17:00 às 19:00.",
+      "Os atendimentos de consulta são individualizados onde conheceremos a respeito das suas queixas para melhor atender suas necessidades. Disponibilizamos um retorno que deverá ser realizado com até 25 dias da consulta inicial. O agendamento pode ser feito pelo telefone celular, por ligação ou whatsapp. Atendimento de segunda a sexta, 8:30 às 12:30. Segunda e quinta, 15:00 às 19:00. Terça e quarta, 17:00 às 19:00.",
   },
   footer: {
     address:
