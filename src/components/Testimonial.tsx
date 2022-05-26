@@ -27,7 +27,7 @@ export const Testimonial = () => {
           color='gray.400'
           fontSize={{ base: '3xl', md: '6xl' }}
         />
-        <Text fontSize={{ base: 'xl', md: '2xl' }} fontWeight="medium" mt="6">
+        <Text fontSize={{ base: 'xl', md: 'xl' }} fontWeight="medium" mt="6">
           &ldquo;{testimonial?.content}&rdquo;
         </Text>
         <Quotee
