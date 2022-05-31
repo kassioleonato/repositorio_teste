@@ -73,6 +73,7 @@ const Home: NextPage = () => {
           position: "fixed",
           right: 16,
           bottom: 16,
+          zIndex: 999,
         }}
       >
         <Img src={"./whatsapp-icon.png"} w={24} />

@@ -64,15 +64,15 @@ type Content = {
 
 const content: Content = {
   head: {
-    metaDescription: "Site da Dra. Andréa Cronemberger",
-    title: "Dra. Andréa Cronemberger",
+    metaDescription: "Site da Dra. Andréa Rufino",
+    title: "Dra. Andréa Rufino",
   },
   social: {
     whatsAppNumber: "558695183172",
     instagramLink: "https://www.instagram.com/andrearufino_/",
   },
   hero: {
-    title: "Dra. Andréa Cronemberger",
+    title: "Dra. Andréa Rufino",
     titleHighlighted: "Ginecologista e Sexóloga.",
   },
   welcomeMessage: {
@@ -102,17 +102,25 @@ const content: Content = {
   presentation: {
     title: "Quem sou eu",
     content:
-      `Dra. Andréa Rufino é médica (CRM 2006/PI) e ginecologista (RQE 434) com área de atuação em sexologia (RQE 1484).
+      `Olá! Eu posso imaginar sua trajetória até chegar ao meu encontro. Seja bem vinda, bem vindo, bem vinde!
 
-A expertise em medicina sexual foi construída em longos anos de residência médica, pós-graduação em sexologia clínica e formação em psicanálise.
+Eu sei que falar sobre sexualidade ainda pode ser difícil para muitas pessoas, mas se você chegou até aqui, saiba que eu posso te ajudar.
 
-A atuação como professora universitária e pesquisadora de temas sexuais promoveu expertise adicional para a psicoeducação sexual, considerada o pilar da terapia sexual baseada em evidências científicas.
+Eu me formei médica (CRM 2006/PI), me especializei em Ginecologia (RQE 434) e busquei formações que me habilitaram para atuar como Sexóloga (RQE 1484).
+
+A especialização em Sexologia Clínica e a formação em Análise Psicodramática me capacitaram para a atuação em terapia sexual individual e de casal.
+
+Minha trajetória como professora universitária, pesquisadora, autora de artigos e capítulos de livros sobre temas sexuais me garantiu expertise adicional para ofertar psicoeducação sexual, considerada o pilar da terapia sexual baseada em evidências científicas.
+
+Toda essa trajetória pessoal e profissional me levou a criar o melhor espaço para cuidar da sua saúde sexual de forma integral: a Casa das Mulheres.
+
+Será um prazer acompanhar você no restabelecimento e manutenção da sua saúde sexual. Vem comigo!
 `,
   },
   choices: {
     title: "Espaço para você",
     content:
-      `A trajetória profissional que une assistência, ensino e pesquisa a preparou para tratar das queixas sexuais de forma dinâmica e integradora de causas orgânicas, relacionais e psicossociais.`,
+      `A Casa das Mulheres é um espaço para você vivenciar uma experiência única em saúde integral, conquistar bem-estar sexual e satisfação com a sua sexualidade. Somos uma equipe preparada para ofertar a você o melhor suporte multiprofissional para o restabelecimento e manutenção da sua saúde sexual. O nosso conceito de bem estar sexual possibilita unirmos os 3 pilares fundamentais da assistência em saúde sexual segundo a Internacional Society for Sexual Medicine: educação, funcionalidade e satisfação sexual. Minha atuação profissional que une assistência em saúde sexual, ensino e pesquisa em sexualidade me preparou para tratar as suas queixas sexuais integrando de forma dinâmica as causas orgânicas, interrelacionais e psicossociais. `,
     images: [
       "/swipper/image1.jpg",
       "/swipper/image2.jpg",
@@ -141,7 +149,7 @@ A atuação como professora universitária e pesquisadora de temas sexuais promo
           "A lubrificação é resultado de uma boa excitação que inclui estímulos sexuais adequados. O estímulo sexual deve ter duração, intensidade e frequência suficientes para congestão genital e prazer garantido! A falta de desejo sexual, falta de estímulo adequado, penetração vaginal sem estimulação adequada, menopausa, pós parto e medicamentos podem causar lubrificação diminuída. Uma boa consulta ginecológica com orientações adequadas te ajudam a resolver o problema.",
       },
       {
-        question: "Não consigo sentir prazer e fingo orgasmo!",
+        question: "Não consigo sentir prazer e finjo orgasmo!",
         answer:
           "O prazer sexual feminino inclui o conhecimento sobre o corpo, zonas erógenas e, principalmente, o clitóris. Clima envolvente com estímulos sexuais que despertam os 5 sentidos são o caminho para o prazer. Fingir o orgasmo é enganar a si mesma. Uma jornada educativa de autoconhecimento te ajudará a descobrir o que te dá prazer.",
       },
@@ -155,25 +163,25 @@ A atuação como professora universitária e pesquisadora de temas sexuais promo
   testimonials: [
     {
       content:
-        "Quando penso em atendimento ginecológico, pra mim alguns aspectos são de extrema importância: empatia e uma escuta sem preconceitos. Ter uma médica com essas duas qualidades faz a diferença nessa relação que de certa forma é tão íntima. A Dra. Andréa trabalha dessa forma. Isso fortalece o vínculo médica-paciente, influenciando até no resultado de qualquer tratamento. Deixo aqui todo meu respeito e admiração por ela e pelo seu trabalho. Me orgulho muito de tê-la como médica.",
-      clientName: "ADRIANA PEDRINI",
-      clientDescription: "",
+        "Eu chegava aos 50 com uma vontade de deixar vir “de dentro de mim uma nova mulher”, ao mesmo tempo com o medo da menopausa que batia na minha porta e me lembrava que um tipo de maternidade já não era mais uma opção para mim. Nas conversas com a Dra Andréa Rufino, fui me dando conta de que mal sabia distinguir o que era emoção de reação, como um olhar para dentro de mim tem feito diferença!  A Casa das Mulheres tem sido um lugar de acolhimento, onde eu só preciso ser eu mesma.",
+      clientName: "Vânia Soares",
+      clientDescription: "51 anos",
     },
     {
       content:
-        "Desde que comecei a ser atendida pela Dra. Andréa Rufino, tenho uma médica humana e profissional de excelência, que busca sempre um atendimento personalizado para pacientes, seja nas consultas ginecológicas, seja nos atendimentos terapêuticos. Me senti confortável inclusive para levar a minha filha, ainda adolescente, para ser atendida e acompanhada por ela e tive a certeza de que seu trabalho é diferenciado, pois ela tem um olhar especial para esse público. Consegue acesso fácil, porque sabe ouvir sem julgamento e mantém a privacidade que era muito importante para eles. Além disso, encontro na Casa das Mulheres um espaço de acolhimento e cuidado. Por todas essas razões, indico a Dra. Andréa Rufino para todo mundo!",
-      clientName: "Alexandra Cronemberger",
-      clientDescription: "",
+        "O encontro com Dra. Andréa, ilumina um caminho que a gente precisa  aprender a seguir. Anima a nos afirmar como mulher, com as alegrias, as dores, as rugas, as perdas e os ganhos. Encoraja a sustentar nossas opiniões, a enfrentar os medos e admitir os desejos.Dra. Andréa  agrega,  articula encontros, faz as mulheres ouvirem umas às outras  e ajuda a entender cada uma a sua história e as suas lutas. E saber que aquilo que nos faz rir e chorar, também o faz a outras mulheres como eu,  com outra idade, outro percurso...isso soma, fortalece, humaniza! E nos faz celebrar a vida! Que casa das mulheres, seja a casa de muitas mulheres.",
+      clientName: "Sadia Castro",
+      clientDescription: "56 anos",
     },
   ],
   cta: {
     title: "Como posso te ajudar?",
     content:
-      "Os atendimentos de consulta são individualizados onde conheceremos a respeito das suas queixas para melhor atender suas necessidades. Disponibilizamos um retorno que deverá ser realizado com até 25 dias da consulta inicial. O agendamento pode ser feito pelo telefone celular, por ligação ou whatsapp. Atendimento de segunda a sexta, 8:30 às 12:30. Segunda e quinta, 15:00 às 19:00. Terça e quarta, 17:00 às 19:00.",
+      "Nossas consultas serão por hora marcada com 1 hora de duração. Vou escutar as suas queixas e propor a melhor estratégia terapêutica para atender suas necessidades. O agendamento pode ser feito pelo telefone celular por ligação ou whatssap no horário de 8:00 às 19:00. Te espero em breve!",
   },
   footer: {
     address:
-      "Rua Angélica 1732, Fátima, Teresina-Pi, Casa das Mulheres",
+      "Rua Angélica 1732, Fátima, Teresina-Pi, Casa das Mulheres.",
     addressLink:
       "https://www.google.com/maps/place/Casa+das+Mulheres+PI-+Dra.+Andrea+Rufino/@-5.0652979,-42.7944397,15z/data=!4m2!3m1!1s0x0:0x8646eba9091d0d40?sa=X&ved=2ahUKEwi_rduD7fr3AhUFuZUCHfHlDpUQ_BJ6BAhREAU",
   },

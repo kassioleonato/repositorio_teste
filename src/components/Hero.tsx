@@ -73,7 +73,7 @@ export const Hero = () => {
             w="full"
             h="full"
             objectFit="cover"
-            objectPosition="25% 55%"
+            objectPosition={{base:"55% 25%",md:"25% 55%"}}
             position="absolute"
           />
           <Box position="absolute" w="full" h="full" bg="blackAlpha.400" />

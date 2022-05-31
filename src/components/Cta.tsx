@@ -1,10 +1,9 @@
-import { Box, BoxProps, Button, Container, Heading, Stack, StackProps, Text, useBreakpointValue } from '@chakra-ui/react'
+import { Box, BoxProps, Button, Container, Flex, FlexProps, Heading, Img, Stack, StackProps, Text, useBreakpointValue } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
 import * as React from 'react'
 import { cta, ctaSecondary } from 'utils/cta'
 import content from '../../content'
 
-const MotionBox = motion<BoxProps>(Box)
 const MotionStack = motion<StackProps>(Stack)
 
 type CtaProps = {
@@ -16,36 +15,72 @@ type CtaProps = {
   idagende:string
 }
 
+const MotionFlex = motion<FlexProps>(Flex);
+
 export const Cta: React.FC<CtaProps> = ({ title, description, isShowCtaButton = true, backgroundColor = 'white', textColor = 'gray.600',idagende }) => (
-  <MotionBox
-    as="section"
-    bg={backgroundColor}
-    id="intro"
+  <MotionFlex
+    minH={"900px"}
+    bg="gray.50"
+    id="contact"
+    alignItems={"center"}
+    justifyContent={"center"}
+    position={"relative"}
+    zIndex="1"
+    mb={16}
   >
-    <Container py={{ base: '16', md: '24' }} maxW="3xl">
-      <MotionStack spacing={{ base: '8', md: '10' }} whileInView={{ translateX: [-50, 0], opacity: [0, 1] }}>
-        <Stack spacing={{ base: '6', md: '10' }} align="center">
-          <Heading size={useBreakpointValue({ base: 'lg', md: 'xl' })} color={content.colors.primary}>
-            {title}
+      <Flex w={"full"} h={"full"} position={"absolute"}>
+      <Img
+        w={"full"}
+        h={"full"}
+        objectFit={"cover"}
+        src="./ctaphoto.jpg"
+        objectPosition={{base:"75% 40%", md:"25% 25%"}}
+      />
+       <Box position="absolute" w="full" h="full" bg="blackAlpha.500" />
+    </Flex>
+
+    <Flex
+      py={{ base: "16", md: "24" }}
+      position={"absolute"}
+      alignItems={"center"}
+      justifyContent={"center"}
+      alignSelf={"center"}
+    >
+      <MotionStack
+        spacing={{ base: "8", md: "10" }}
+        whileInView={{ translateX: [-50, 0], opacity: [0, 1] }}
+      >
+        <Stack spacing={{ base: "4", md: "5" }} align="center">
+          <Heading color="whiteAlpha.900" size={useBreakpointValue({ base: "lg", md: "xl" })}>
+            {content.cta.title}
           </Heading>
-          <Text color={textColor} maxW="3xl" textAlign="center" fontSize="md" whiteSpace="break-spaces">
-            {description}
-          </Text>
+          <Text color="whiteAlpha.900" maxW="2xl" textAlign="center" fontSize="lg">{description}</Text>
         </Stack>
-        {isShowCtaButton && (
-          <Stack spacing="3" direction={{ base: 'column', sm: 'row' }} justify="center" id={idagende}>
-            <Button
-              bgColor={content.colors.primary}
-              color={'white'}
-              rounded="full"
-              size="lg"
-              onClick={cta}
-            >
-              Marque a sua consulta
-            </Button>
-          </Stack>
-        )}
+        <Stack
+          spacing="3"
+          direction={{ base: "column", sm: "row" }}
+          justify="center"
+        >
+          <Button
+            colorScheme={content.colors.scheme}
+            rounded="full"
+            size="lg"
+            onClick={cta}
+          >
+            Marque a sua consulta
+          </Button>
+          <Button
+            variant="ghost"
+            size="lg"
+            rounded="full"
+            color={'black'}
+            backgroundColor={'white'}
+            onClick={ctaSecondary}
+          >
+            Me siga nas redes sociais
+          </Button>
+        </Stack>
       </MotionStack>
-    </Container>
-  </MotionBox>
+    </Flex>
+  </MotionFlex>
 )

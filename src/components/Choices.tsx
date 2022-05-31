@@ -57,7 +57,7 @@ export default function Choices() {
             justifyContent={"center"}
           >
             <Text
-              fontSize={{ base: "xl", md: "2xl" }}
+              fontSize={{ base: "xl", md: "5xl" }}
               fontWeight="bold"
               color={content.colors.primary}
               mt={4}
