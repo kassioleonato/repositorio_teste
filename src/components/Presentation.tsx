@@ -97,7 +97,7 @@ export const Presentation = () => {
             h="full"
             objectFit="cover"
             objectPosition={useBreakpointValue({
-              base: "top center",
+              base: "45% 25%",
               md: "center center",
             })}
             position="absolute"

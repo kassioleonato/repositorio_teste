@@ -76,7 +76,7 @@ export const Hero = () => {
             objectPosition={{base:"55% 25%",md:"25% 55%"}}
             position="absolute"
           />
-          <Box position="absolute" w="full" h="full" bg="blackAlpha.400" />
+          <Box position="absolute" w="full" h="full" bg="blackAlpha.300" />
         </Box>
       </Flex>
     </Box>
