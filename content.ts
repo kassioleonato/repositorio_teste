@@ -136,22 +136,22 @@ Será um prazer acompanhar você no restabelecimento e manutenção da sua saúd
       {
         question: "Estou sem desejo sexual: o que fazer?",
         answer:
-          "Começamos investigando as possíveis causas. Precisamos descartar alterações hormonais, como doenças da tireoide, prolactina elevada, menopausa e uso de hormônios. Importante observar se há conflitos de relacionamento e questões emocionais que afetam a autoestima. Lembrar que o stress cotidiano, maus hábitos de vida, cansaço e a monotonia nos relacionamentos podem impactar de forma negativa no desejo sexual. Desconhecimento e crenças limitantes sobre sexualidade impõe dificuldades para o desejo sexual se expressar livremente. Uma equipe multiprofissional preparada para te escutar, diagnosticar, orientar e tratar as possíveis causas é fundamental para ajudar a recuperar o desejo sexual.",
+          "Começamos investigando as possíveis causas. Precisamos descartar alterações hormonais, como doenças da tireoide, prolactina elevada, menopausa e uso de hormônios. Importante observar se há conflitos de relacionamento e questões emocionais que afetam a autoestima. Lembrar que o stress cotidiano, maus hábitos de vida, cansaço e a monotonia nos relacionamentos podem impactar de forma negativa no desejo sexual. Desconhecimento e crenças limitantes sobre sexualidade impõem dificuldades para o desejo sexual se expressar livremente. Uma equipe multiprofissional preparada para escutar, diagnosticar, orientar e tratar as possíveis causas é fundamental para ajudar a recuperar o desejo sexual.",
       },
       {
         question: "Sinto muita dor na relação sexual!",
         answer:
-          "Primeiro, NÃO é normal sentir dor na prática sexual! Então, precisamos valorizar sua queixa e pesquisar as causas. Doenças como endometriose, infecção pélvica e vaginites podem causar dor durante as relações sexuais. Conflitos sexuais e no relacionamento, experiências de violência, desconhecimento sobre sexualidade e educação muito repressora também podem resultar em dor e medo que dificultam a prática sexual. Uma avaliação com equipe multiprofissional te ajuda a identificar as causas e tratar adequadamente para que a prática sexual seja confortável e prazerosa. Afinal, sexo deve ser sinônimo de prazer!",
+          "Primeiro, NÃO é normal sentir dor na prática sexual! Então, precisamos valorizar sua queixa e pesquisar as causas. Doenças como endometriose, infecção pélvica e vaginites podem causar dor durante as relações sexuais. Conflitos sexuais e no relacionamento, experiências de violência, desconhecimento sobre sexualidade e educação muito repressora também podem resultar em dor e medo que dificultam a prática sexual. Uma avaliação com equipe multiprofissional ajudará você a identificar as causas e tratar adequadamente para que a prática sexual seja confortável e prazerosa. Afinal, sexo deve ser sinônimo de prazer!",
       },
       {
         question: "Não consigo ficar lubrificada na prática sexual!",
         answer:
-          "A lubrificação é resultado de uma boa excitação que inclui estímulos sexuais adequados. O estímulo sexual deve ter duração, intensidade e frequência suficientes para congestão genital e prazer garantido! A falta de desejo sexual, falta de estímulo adequado, penetração vaginal sem estimulação adequada, menopausa, pós parto e medicamentos podem causar lubrificação diminuída. Uma boa consulta ginecológica com orientações adequadas te ajudam a resolver o problema.",
+          "A lubrificação é resultado de uma boa excitação que inclui estímulos sexuais adequados. O estímulo sexual deve ter duração, intensidade e frequência suficientes para congestão genital e prazer garantido! A falta de desejo sexual, falta de estímulo adequado, penetração vaginal sem estimulação adequada, menopausa, pós parto e medicamentos podem causar lubrificação diminuída. Uma boa consulta ginecológica com orientações adequadas ajudará você a resolver o problema.",
       },
       {
         question: "Não consigo sentir prazer e finjo orgasmo!",
         answer:
-          "O prazer sexual feminino inclui o conhecimento sobre o corpo, zonas erógenas e, principalmente, o clitóris. Clima envolvente com estímulos sexuais que despertam os 5 sentidos são o caminho para o prazer. Fingir o orgasmo é enganar a si mesma. Uma jornada educativa de autoconhecimento te ajudará a descobrir o que te dá prazer.",
+          "O prazer sexual feminino inclui o conhecimento sobre o corpo, zonas erógenas e, principalmente, o clitóris. Clima envolvente com estímulos sexuais que despertam os 5 sentidos são o caminho para o prazer. Fingir o orgasmo é enganar a si mesma. Uma jornada educativa de autoconhecimento ajudará você a descobrir o que te dá prazer.",
       },
       {
         question: "Tenho um relacionamento longo e o desejo sexual acabou!",
