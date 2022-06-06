@@ -1,6 +1,7 @@
 import { ThemeTypings } from "@chakra-ui/react";
 
 type Content = {
+  nameAPI: string;
   head: {
     metaDescription: string;
     title: string;
@@ -63,6 +64,7 @@ type Content = {
 };
 
 const content: Content = {
+  nameAPI: "andrea-rufino",
   head: {
     metaDescription: "Site da Dra. Andréa Rufino",
     title: "Dra. Andréa Rufino",
