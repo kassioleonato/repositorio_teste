@@ -9,7 +9,7 @@ export default class MyDocument extends Document {
         <body>
           <noscript>
             <iframe
-              src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+              src="https://www.googletagmanager.com/ns.html?id='GTM-5ZTJM32'"
               height="0"
               width="0"
               style={{ display: 'none', visibility: 'hidden' }}
