@@ -64,7 +64,7 @@ export const Navbar = () => {
                     Depoimentos
                   </NavLink.Desktop>
                 )}
-                <NavLink.Desktop href="#cel">Contato</NavLink.Desktop>
+                <NavLink.Desktop href="#contact">Contato</NavLink.Desktop>
                 <Link
                 href= {content.social.instagramLink}
                 target={'_blank'}
