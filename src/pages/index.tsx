@@ -12,6 +12,7 @@ import WelcomeMessage from "components/WelcomeMessage";
 import { motion } from "framer-motion";
 import type { NextPage } from "next";
 import Head from "next/head";
+import { cta } from "utils/cta";
 import content from "../../content";
 
 const MotionAnchor = motion.a;
@@ -67,13 +68,14 @@ const Home: NextPage = () => {
         // @ts-ignore
         transition={{ duration: 1, delay: 3 }}
         target="_blank"
-        href={`https://wa.me/${content.social.whatsAppNumber}`}
+        onClick={cta}
         rel="noopener noreferrer"
         style={{
           position: "fixed",
           right: 16,
           bottom: 16,
           zIndex: 999,
+          cursor: "pointer",
         }}
       >
         <Img src={"./whatsapp-icon.png"} w={24} />

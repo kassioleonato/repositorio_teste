@@ -5,10 +5,10 @@ export const CountAPI = async () => {
   try {
     /* const token = request.headers()['mcp-token'] */
     await axios.post(
-        `https://trafico.meuconsultorioparticular.com.br/${content.nameAPI}/count`,
+      `https://trafico.meuconsultorioparticular.com.br/${content.nameAPI}/count`,
       {},
-      { headers: { "mcp-token": "d671baae-8442-4bab-aa07-3b97d177502e"} }
-    )
+      { headers: { "mcp-token": "d671baae-8442-4bab-aa07-3b97d177502e" } }
+    );
   } catch (error) {
     console.log(error);
   }

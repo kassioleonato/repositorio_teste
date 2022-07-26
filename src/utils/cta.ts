@@ -10,8 +10,3 @@ export function cta () {
 export function ctaSecondary () {
   openInNewTab(content.social.instagramLink)
 }
-
-export function cta2(){
-  CountAPI();
-  openInNewTab(`https://wa.me/553588713224`)
-}
